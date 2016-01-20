@@ -1,0 +1,111 @@
+body {
+  overflow: hidden;
+  background-color: #CBECF7;
+}
+#wrapper {
+  height: 800px;
+  width: 800px;
+  border: black 2px solid;
+  position: absolute;
+  top: 110px;
+  left: 200px;
+  background-color: white;
+}
+.box {
+  height: 225px;
+  width: 225px;
+  float: left;
+}
+.color {
+  background-color: green;
+}
+button:hover {
+  opacity: 0.7;
+}
+#reset {
+  position: absolute;
+  top: 110px;
+  left 10px;
+}
+#shake {
+  font-size: 50px;
+  background-color: blue;
+  color: white;
+  width: 180px;
+  height: 125px;
+  border-radius: 5%;
+}
+h1 {
+  font-size: 70px;
+  background: linear-gradient(#94dff7, #31c6f7);
+  color: white;
+  text-align: center;
+  font-family: fantasy;
+  font-weight: normal;
+  position: relative;
+  top: -35px;
+}
+h2 {
+  position: relative;
+  top: -110px;
+  left: 740px;
+  color: red;
+  font-size: 30px;
+}
+button {
+  width: 90px;
+  height: 40px;
+}
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+#background {
+  float: right;
+  border: solid black 1px;
+  background-color: white; 
+  width: 185px;
+  padding: 3px;
+  margin-bottom: 10px;
+  margin-right: 35px;
+}
+#color {
+  float: right;
+  clear: both;
+  border: solid black 1px;
+  background-color: white; 
+  width: 185px; 
+  padding: 3px;  
+  margin-right: 35px;
+}
+#white {
+  background-color: white;
+}
+#black {
+  background-color: black;
+  color: white;
+}
+#red {
+  background-color: red;
+  color: white;
+}
+#blue {
+  background-color: blue;
+  color: white;
+}
+#whitePen {
+  background-color: white;
+}
+#blackPen {
+  background-color: black;
+  color: white;
+}
+#redPen {
+  background-color: red;
+  color: white;
+}
+#greenPen {
+  background-color: green;
+  color: white;
+}
